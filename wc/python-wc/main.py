@@ -1,6 +1,6 @@
 import argparse
 import sys
-from commands import count_file_bytes, count_file_characters, count_file_lines, count_file_words
+from counter import count_file_bytes, count_file_characters, count_file_lines, count_file_words
 
 parser = argparse.ArgumentParser()
 
